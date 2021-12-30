@@ -1,0 +1,78 @@
+.sideBar
+{
+    flex:3;
+    height:calc(100vh - 50px);   
+    /* viewport height , -50px coz its the height of topbar */
+    overflow-y:scroll;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    width: 5px;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: gray;
+}
+.sidebarWrapper
+{
+    padding: 20px;
+}
+
+.sidebarList
+{
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+}
+
+.sidebarListItems
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebarIcon
+{
+    margin-right: 20px;
+}
+
+.sidebarButton
+{
+    width: 150px;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.sidebarHr
+{
+    margin : 20px 0;
+}
+
+.sidebarFriendList
+{
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+}
+
+.sidebarFriend
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebarfriendImg
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
