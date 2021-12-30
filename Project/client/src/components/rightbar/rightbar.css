@@ -1,0 +1,85 @@
+.rightbar{
+    display: flex;
+    flex:3.5;
+}
+.rightbarWrapper
+{
+    padding: 22px 0 0;
+}
+.birthdayImg
+{
+    height: 50px;
+    width: 50px;
+    margin-right:10px;
+}
+.birthdayContainer
+{
+    display: flex;
+    align-items: center;
+}
+.birthdayText
+{
+    font-weight: 278;
+    font-size: 16px;
+}
+
+.ProfileStats
+{
+    margin-top: 25px;
+}
+/* .proftext
+{
+    margin-top: 1px;
+} */
+.viewsSection
+{
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+     margin: 10px 5px;
+    /*margin-top: 10px; */
+    margin-right: 10px;
+    padding:10px;
+    border-radius: 3px;
+   
+}
+.viewsSection:hover
+{
+   cursor: pointer;
+}
+.profileText
+{
+    position: absolute;
+    margin-top: 1.5px;
+    margin-left: 3px;
+}
+.viewsCount
+{
+    margin-left: 25px;
+}
+.mentionSection
+{
+    webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 10px 5px;
+    margin-right: 10px;
+    padding:10px;
+    border-radius: 3px;
+}
+.mentionSection:hover
+{
+    cursor: pointer;
+}
+.saveSection
+{
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+     margin: 10px 5px;
+    /*margin-top: 10px; */
+    margin-right: 10px;
+    padding:10px;
+    border-radius: 3px;
+}
+.saveSection:hover
+{
+    cursor: pointer;
+}
